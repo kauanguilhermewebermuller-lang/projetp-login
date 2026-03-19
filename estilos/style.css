@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*
+#5E2F82
+#499D9C
+#E8EFF7
+#53AAA7
+#536C91
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100vh;
+    background: linear-gradient(to bottom, #5E2F82, #499D9C);
+}
