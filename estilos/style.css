@@ -11,9 +11,43 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body, html {
+    background-color: #5E2F82;
     height: 100vh;
-    background: linear-gradient(to bottom, #5E2F82, #499D9C);
+    width: 100vw;
+}
+
+#imagem {
+    height: 200px;
+    background: #5E2F82 url(../imagens/metal.jpg) no-repeat;
+    background-position: left, bottom;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+}
+
+
+.formulario {
+    padding: 10px;
+    display: block;
 }
